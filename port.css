@@ -1,11 +1,11 @@
 body{
 	font-family: Poppins,sans-serif;
 	color: #333;
-	
 	background-image:url('portf10.jpg');
 	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:100% 100%;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
 }
 /*Style the header*/
 header{
@@ -62,16 +62,17 @@ section li{
 	box-shadow: 0 2px 6px rgba(0,0,0,0,1);
 	padding: 20px;
 }
-section li img{
+section  img{
 max-width: 100%;
 }
-Section li h3{
+Section  h3{
 	font-size: 24px;
 	margin-top:0;
 }
-section li p{
+section  p{
 	font-size: 16px;
 	margin-bottom: 0;
+	color: black;
 }
 form{
 	display: flex;
@@ -136,13 +137,12 @@ form button {
 	border-radius: 15px;
 	height: 40px;
 	width: 100px;
-	padding-left: 400px;
-	padding-right: 400px;
+    padding-left: 200px;
+	padding-right: 200px;
 	cursor: pointer;
 }
 .send:hover {
-	background-color: rgb(220, 115, 10);
-	opacity: o.6;
+	opacity: 0.9;
 }
 .send:active {
 	opacity: 0.5;
@@ -153,4 +153,70 @@ form p{
 section h1{
 	color: rgb(18, 97, 176);
 }
-
+.view-button{
+	background-color: rgb(198, 37, 37);
+	color: white;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+.view-button:active {
+	opacity: 0.4;
+	background-color: rgb(193, 120, 10);
+}
+.view-button:hover {
+	background-color: red(209, 88, 13);
+	opacity: 0.8;
+}
+.image{
+	width: 400px;
+	height: 400px;
+}
+.face-button {
+	background-color: rgb(14, 80, 233);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 10px;
+	font-weight: bold;
+	font-size: large;
+	cursor: pointer;
+}
+.link-button {
+	background-color: rgb(4, 147, 249);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 10px;
+	font-weight: bold;
+	font-size: large;
+	cursor: pointer;
+}
+.git-button {
+	background-color: rgb(91, 0, 227);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 10px;
+	font-weight: bold;
+	font-size: large;
+	cursor: pointer;
+}
+.face-button:hover{
+	opacity: 0.9;
+}
+.link-button:hover {
+	opacity: 0.9;
+}
+.git-button:hover {
+	opacity: 0.9;
+}
+.face-button:active {
+	opacity: 0.5;
+}
+.link-button:hover {
+	opacity: 0.5;
+}
+.git-button:hover {
+	opacity: 0.5;
+}
